@@ -16,7 +16,7 @@ class OAuthTokenProvider extends BaseTokenProvider
     /**
      * @var string
      */
-    private static $TokenEndpoint = '/oauth2/token';
+    public static $TokenEndpoint = '/oauth2/token';
 
     /**
      * @var string
